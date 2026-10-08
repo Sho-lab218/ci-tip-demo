@@ -1,4 +1,4 @@
-const double defaultTipPercent = 0;
+const double defaultTipPercent = 15;
 
 /// Splits a bill evenly, adding a tip, rounded to the nearest cent.
 double splitBill(double bill, int people,
