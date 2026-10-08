@@ -2,8 +2,8 @@ import 'package:split_calculator/split_calculator.dart';
 import 'package:test/test.dart';
 
 void main() {
-  test('splits \$100 between 4 people (no tip by default)', () {
-    expect(splitBill(100, 4), 25.0);
+  test('splits \$100 between 4 people (15% tip by default)', () {
+    expect(splitBill(100, 4), 28.75);
   });
 
   test('adds a custom 20% tip', () {
