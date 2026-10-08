@@ -1,0 +1,10 @@
+name: split_calculator
+description: Bill splitting demo for CI.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.0.0
+
+dev_dependencies:
+  test: ^1.24.0
